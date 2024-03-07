@@ -20,7 +20,7 @@
 					<!-- <span class="icon major fa-cloud"></span> -->
 					<img src="./images/zz.png" width="80px" alt="" style="border-radius: 40px">
 					<h3 style="margin-bottom: 24px;">Hi, I'm <strong>Zhang Zhang</strong>, </h3>
-					<h3>A Ph.D. student focusing on how AI techniques may upgrade our understanding of the nature of complex systems</h3>
+					<h3>A Ph.D. student focusing on AI for Complexity and AI by Complexity.</h3>
 					<p>I'm currently working at <a href="https://bnusss.github.io">School of System Science, Beijing Normal University</a></p>
 						<!-- <br />advised by <a href="http://swarmagents.cn.13442.m8849.cn/jake/">Prof. Jiang Zhang</a></p> -->
 					<ul class="actions special">
@@ -37,9 +37,7 @@
 							<header class="major">
 								<h2>About Me</h2>
 							</header>
-							Traditionally, Modeling complex systems require a human understanding of the system, but with the increase in system complexity, this understanding is more and more difficult to obtain. I'm working on modeling complex systems in a data-driven way using machine learning techniques (especially deep learning) and mining the machine's insights about the system from the models. 
-							<br><br>
-							In addition, I am particularly interested in topics related to the emergence of complex systems, such as causal emergence and the renormalization of complex systems.
+							My research interests focus on AI for Complexity and AI by Complexity. Regarding AI for Complexity, I use machine learning methods to solve classic problems in complex systems, such as network reconstruction problems, network generation problems, and renormalization problems. In AI by Complexity, I try to use theoretical advances in complexity to drive the construction of the next generation of artificial intelligence frameworks.
 
 							</p>
 						</div>
@@ -58,22 +56,77 @@
 				</div>
 			</section>
 
+
+			<section id="two" class="main style2">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h3>Selected Papers</h3>
+							</header>
+							<strong>Network Information Dynamics Renormalization Group</strong> <br>
+							<span style="font-size: 14px;"> <span style="font-weight: bold;">Zhang Zhang</span>, , Arsham Ghavasieh, Jiang Zhang, Manlio De Domenico*</span>
+							<br>
+
+							<p style="font-size:14px;line-height: 20px;">
+							Information dynamics is vital for many complex systems with networked backbones, from cells to societies. Recent advances in statistical physics have enabled capturing the macroscopic network properties, like how diverse the flow pathways are and how fast the signals can transport, based on the network counterparts of entropy and free energy. However, given the computational challenge posed by the large number of components in real-world systems, there is a need for advanced network renormalization---ie, compression---methods providing simpler-to-read representations while preserving the flow of information between functional units across scales. We use graph neural networks to identify suitable groups of components for coarse-graining a network and achieve a low computational complexity suitable for practical application. Even for large compressions, our approach is highly effective in preserving the flow in synthetic and empirical networks, as demonstrated by theoretical analysis and numerical experiments. Remarkably, we find that the model works by merging nodes of similar ecological niches---ie, structural properties---, suggesting that they play redundant roles as senders or receivers of information. Our work offers a low-complexity renormalization method breaking the size barrier for meaningful compressions of extremely large networks, working as a multiscale topological lens in preserving the flow of information in biological, social, and technological systems better than existing alternatives mostly focused on structural properties of a network.
+							</p>
+							<p>Download this paper <a href="https://www.researchsquare.com/article/rs-3503708/v1">here</a></p>
+						</div>
+						<div class="col-6 col-12-medium">
+							<br><br>
+							<img style="width: 100%;" src="./images/renorm.png" alt="">
+
+						</div>
+						
+					</div>
+				</div>
+
+			</section>
+
+
+			<section id="two" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						
+						<div class="col-6 col-12-medium">
+							<br><br>
+							<img style="width: 100%;" src="./images/pruning.png" alt="">
+						</div>
+
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h3>Selected Papers</h3>
+							</header>
+							<strong>Neural Network Pruning by Gradient Descent</strong> <br>
+							<span style="font-size: 14px;"> <span style="font-weight: bold;">Zhang Zhang</span>, Ruyi Tao, Jiang Zhang*</span>
+							<br>
+
+							<p style="font-size:14px;line-height: 20px;">
+							The rapid increase in the parameters of deep learning models has led to significant costs, challenging computational efficiency and model interpretability. In this paper, we introduce a novel and straightforward neural network pruning framework that incorporates the Gumbel-Softmax technique. This framework enables the simultaneous optimization of a network's weights and topology in an end-to-end process using stochastic gradient descent. Empirical results demonstrate its exceptional compression capability, maintaining high accuracy on the MNIST dataset with only 0.15\% of the original network parameters. Moreover, our framework enhances neural network interpretability, not only by allowing easy extraction of feature importance directly from the pruned network but also by enabling visualization of feature symmetry and the pathways of information propagation from features to outcomes. Although the pruning strategy is learned through deep learning, it is surprisingly intuitive and understandable, focusing on selecting key representative features and exploiting data patterns to achieve extreme sparse pruning. We believe our method opens a promising new avenue for deep learning pruning and the creation of interpretable machine learning systems.
+							</p>
+							<p>Download this paper <a href="https://arxiv.org/abs/2311.12526">here</a></p>
+						</div>
+						
+					</div>
+				</div>
+			</section>
 		<!-- Two -->
 			<section id="two" class="main style2">
 				<div class="container">
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h3>Selected Publications</h3>
+								<h3>Selected Papers</h3>
 							</header>
-							<strong>Graph Auto-Encoder for Network Completion（2022）</strong> <br>
-							<span style="font-size: 14px;"> <span style="font-weight: bold;">Zhang Zhang</span>, Ruyi Tao, Yongzai Tao, Jiang Zhang*</span>
+							<strong>Graph Completion Through Local Pattern Generalization</strong> <br>
+							<span style="font-size: 14px;"> <span style="font-weight: bold;">Zhang Zhang</span>, Ruyi Tao, Yongzai Tao, Mingze Qi and Jiang Zhang*</span>
 							<br>
 
-							<p>
-							When you are faced with a network that can not be fully observed, especially if some nodes and their edges are all missing. The approach we propose in this paper can help you complete the entire network. We are using GAE to learn the local connection pattern from observable parts of the network, and generalize it to unobservable parts.
+							<p style="font-size:14px;line-height: 20px;">
+							Network completion is more challenging than link prediction, as it aims to infer both missing links and nodes. Although various methods exist for this problem, few utilize structural information-specifically, the similarity of local connection patterns. In this study, we introduce a model called C-GIN, which captures local structural patterns in the observed portions of a network using a Graph Auto-Encoder equipped with a Graph Isomorphism Network. This model generalizes these patterns to complete the entire graph. Experimental results on both synthetic and real-world networks across diverse domains indicate that C-GIN not only requires less information but also outperforms baseline prediction models in most cases. Additionally, we propose a metric known as “Reachable Clustering Coefficient (RCC)” based on network structure. Experiments reveal that C-GIN performs better on networks with higher Reachable CC values.
 							</p>
-							<p>This paper has not been published yet but you can download it  <a href="./assets/gae_for_nc.pdf">here</a></p>
+							<p>This paper has been published in  <a href="https://link.springer.com/chapter/10.1007/978-3-031-53468-3_22">The 12th International Conference on Complex Networks and their Applications</a></p>
 						</div>
 						<div class="col-6 col-12-medium">
 							<br><br>
@@ -99,7 +152,7 @@
 
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h3>Selected Publications</h3>
+								<h3>Selected Papers</h3>
 							</header>
 							<strong>A General Deep Learning Framework for Network Reconstruction and Dynamics Learning（2019）</strong> <br>
 							<span style="font-size: 14px;"> <span style="font-weight: bold;">Zhang Zhang</span>, Yi Zhao, Jing Liu, Shuo Wang, Ruyue Xin and Jiang Zhang*</span>
@@ -127,7 +180,7 @@
 
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h3>Selected Publications</h3>
+								<h3>Selected Papers</h3>
 							</header>
 							<strong>Neural Gene Network Constructor: A Neural Based Model for Reconstructing Gene Regulatory Network</strong> <br>
 							<span style="font-size: 14px;"><span style="font-weight: bold;">Zhang Zhang</span>†, Lifei Wang†, Shuo Wang, Ruyi Tao, Jingshu Xiao, Muyun Mou, Jun Cai*, Jiang Zhang*</span>
@@ -144,12 +197,12 @@
 			</section> -->
 
 		<!-- Three -->
-			<section id="two" class="main style2">
+			<!-- <section id="two" class="main style2">
 				<div class="container">
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h3>Selected Publications</h3>
+								<h3>Selected Papers</h3>
 							</header>
 							<strong>The Cinderella Complex: Word embeddings reveal gender stereotypes in movies and books（2019）</strong> <br>
 							<span style="font-size: 14px;"> Huimin Xu, <span style="font-weight: bold;">Zhang Zhang</span>, Lingfei Wu  , Cheng-Jun Wang* <br>
@@ -166,8 +219,8 @@
 						
 					</div>
 				</div>
-			</section>
-
+			</section> -->
+<!-- 
 			<section id="two" class="main style1">
 				<div class="container">
 					<div class="row gtr-150">
@@ -179,7 +232,7 @@
 
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h3>Selected Publications</h3>
+								<h3>Selected Papers</h3>
 							</header>
 							<strong>Inferring network structure with unobservable nodes from time series data（2021）</strong> <br>
 							<span style="font-size: 14px;">Mengyuan Chen, Yan Zhang, <span style="font-weight: bold;">Zhang Zhang</span> Lun Du, Shuo Wang, Jiang Zhang*</span>
@@ -193,7 +246,7 @@
 						
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 
 		<!-- Four -->
@@ -252,11 +305,11 @@
 						<h2>Blogs</h2>
 					</header>
 					<p style="font-weight: bold;font-size: 14px;"> <a href="https://github.com/3riccc/3riccc.github.io/blob/master/blog/Introduction%20to%20several%20typical%20papers%20on%20Graph%20Pooling%20Methods.ipynb">Introduction to several typical papers on Graph Pooling Methods</a></p>
-					<p style="font-weight: bold;font-size: 14px;"> <a href="https://github.com/3riccc/3riccc.github.io/blob/master/blog/我为什么觉得自我意识是一件重要的事情">我为什么觉得自我意识是一件重要的事情.ipynb</a></p>
+					<!-- <p style="font-weight: bold;font-size: 14px;"> <a href="https://github.com/3riccc/3riccc.github.io/blob/master/blog/我为什么觉得自我意识是一件重要的事情">我为什么觉得自我意识是一件重要的事情.ipynb</a></p> -->
 					<p></p>
 					<ul class="actions special">
 						<!-- <li><a href="#" class="button wide primary">Download CV</a></li> -->
-						<li><a href="./assets/Resume - Zhang Zhang.pdf" class="button wide">Download CV</a></li>
+						<li><a href="./assets/CV_zhangzhang.pdf" class="button wide">Download CV</a></li>
 					</ul>
 				</div>
 			</section>
